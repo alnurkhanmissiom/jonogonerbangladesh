@@ -71,11 +71,11 @@ if ( ! function_exists( 'news_portal_footer_site_info_section' ) ) :
 					echo esc_html( $news_portal_copyright_text );
 				?>
 			</span>
-			<span class="sep"> | </span>
-			<?php
-				$news_portal_author_url = 'https://mysterythemes.com/';
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'news-portal' ), 'News Portal', '<a href="'. esc_url( $news_portal_author_url ).'" rel="designer" target="_blank">Mystery Themes</a>' );
+			<!--<span class="sep"> | </span>-->
+			 <?php
+			 	/* $news_portal_author_url = 'https:jonogonerbangladesh.com';
+				 translators: 1: Theme name, 2: Theme author. 
+				printf( esc_html__( 'Theme: %1$s By %2$s.', 'News Portal' ), 'Design', '<a href="'. esc_url( $news_portal_author_url ).'" rel="designer" target="_blank">Jonogoner Bangladesh</a>' );  */
 			?>
 		</div><!-- .site-info -->
 <?php
